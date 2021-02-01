@@ -4,7 +4,7 @@
   :min-lein-version "2.1.0"
   :license {:name "The MIT License"
             :url "http://opensource.org/licenses/MIT"}
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [com.drewnoakes/metadata-extractor "2.10.1"]
+  :dependencies [[org.clojure/clojure "1.10.2"]
+                 [com.drewnoakes/metadata-extractor "2.15.0"]
                  [clj-http "3.4.1"]]
   :profiles {:test {:resource-paths ["test-resources"]}})
